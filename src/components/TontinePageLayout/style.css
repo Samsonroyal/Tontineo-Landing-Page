@@ -6,7 +6,6 @@
   gap: 83px;
   align-items: stretch;
   justify-content: flex-start;
-  max-width: 1440px;
 }
 .header-container1 {
   flex: 0 0 auto;
