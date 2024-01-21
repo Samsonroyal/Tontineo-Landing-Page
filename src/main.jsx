@@ -6,7 +6,7 @@ import "./styles/variables.css";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
-  <div style={{ display: "inline-block" }} data-ignore="used only for top most containter width">
+  <div >
     <TontinePageLayout {...mockData} />
   </div>
 );
