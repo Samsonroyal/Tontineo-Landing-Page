@@ -47,5 +47,6 @@ This project is licensed under the MIT License.
 
 ## Additional Information
 
-- Landing Page: ![Link to Tontine Landing Page]()
+- Landing Page: [Tontineo website](https://www.tontineo.vercel.app)
+
 - Tontineo App: Tontineo Mobile App APK is ![here]()
