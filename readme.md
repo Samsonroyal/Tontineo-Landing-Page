@@ -1,4 +1,4 @@
-# Tontineo App
+# Tontineo App Website
 
 ## About the Project
 
