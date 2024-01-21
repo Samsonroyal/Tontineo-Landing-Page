@@ -1,0 +1,11 @@
+.app-container {
+  flex: 0 0 auto;
+  border: 1px solid var(--color-grey);
+  border-radius: var(--border-radius-8);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-right: 32px;
+  padding-left: 32px;
+}

@@ -1,0 +1,22 @@
+.tontine-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg-container3 {
+  flex: 0 0 auto;
+  display: flex;
+  width: 24px;
+  height: 24px;
+}
+.tontine-value-text {
+  font: var(--font-weight-400) var(--font-size-24) "IBM Plex Mono";
+  padding: 0;
+  margin: 0 0 0 11.5px;
+  flex-basis: auto;
+  flex-grow: 0;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}

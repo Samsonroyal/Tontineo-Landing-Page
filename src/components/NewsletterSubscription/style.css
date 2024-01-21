@@ -1,0 +1,46 @@
+.newsletter-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-self: stretch;
+  justify-content: flex-start;
+  padding-right: 120px;
+  padding-left: 120px;
+  margin-top: -23px;
+}
+.newsletter-title {
+  flex: 0 0 auto;
+  font: var(--font-weight-600) var(--font-size-36) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 868px;
+  color: var(--color-black);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.newsletter-subscription {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 22px;
+}
+.email-section {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 27.92%;
+}
+.image-container11 {
+  box-sizing: border-box;
+  display: block;
+  width: 320px;
+  max-width: initial;
+  height: 56px;
+}

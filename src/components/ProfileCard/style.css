@@ -1,0 +1,48 @@
+.profile-card {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 125px;
+}
+.container-wrapper {
+  flex: 0 0 auto;
+}
+.circular-image {
+  border: none;
+  border-radius: var(--border-radius-50);
+  box-sizing: border-box;
+  display: block;
+  width: 70px;
+  max-width: initial;
+  height: 70px;
+  object-fit: cover;
+}
+.entrepreneur-card {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 125px;
+  margin-left: 16px;
+}
+.ama-sunshine {
+  flex: 0 0 auto;
+  font: var(--font-weight-500) var(--font-size-24) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.entrepreneur-style {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-16) "IBM Plex Mono";
+  padding: 0;
+  margin: 4px 0 0;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}

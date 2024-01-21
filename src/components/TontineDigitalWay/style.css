@@ -1,0 +1,73 @@
+.digital-tontines-container {
+  flex: 0 0 auto;
+  border-radius: var(--border-radius-8);
+  background: var(--color-forestgreen-931ea64);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-self: stretch;
+  justify-content: flex-start;
+  margin-top: 11px;
+}
+.tontine-container {
+  flex: 0 0 auto;
+  background: url("/assets/div__lqng6s_826302.svg")
+    no-repeat 50% / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: initial;
+  height: 422px;
+  padding-top: 117px;
+}
+.digital-tontines {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-right: 59px;
+  padding-left: 59px;
+}
+.digital-tontines-heading {
+  flex: 0 0 auto;
+  font: var(--font-weight-600) var(--font-size-48) "IBM Plex Mono";
+  padding: 11px 0 24px;
+  margin: 0 16px 0 0;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.container-wrapper {
+  flex: 0 0 auto;
+}
+.image-container12 {
+  border: none;
+  box-sizing: border-box;
+  display: block;
+  width: 120px;
+  max-width: initial;
+  height: 102px;
+  object-fit: cover;
+}
+.digital-tontine {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+.image-container18 {
+  flex: 0 0 auto;
+  padding-top: 10px;
+}
+.image-container6 {
+  border: none;
+  box-sizing: border-box;
+  display: block;
+  width: 314px;
+  max-width: initial;
+  height: 184px;
+  object-fit: cover;
+}

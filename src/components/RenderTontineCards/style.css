@@ -1,0 +1,9 @@
+.tontine-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 24px;
+}

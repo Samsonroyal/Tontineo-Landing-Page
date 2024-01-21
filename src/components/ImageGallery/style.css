@@ -1,0 +1,33 @@
+.flex-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-right: 31px;
+}
+.image-container10 {
+  flex: 0 0 auto;
+  padding-top: 44px;
+  margin-right: 88px;
+}
+.image-container17 {
+  border: none;
+  box-sizing: border-box;
+  display: block;
+  width: 123px;
+  max-width: initial;
+  height: 122px;
+  object-fit: cover;
+}
+.image-container4 {
+  flex: 0 0 auto;
+  padding-bottom: 99px;
+}
+.image-container19 {
+  box-sizing: border-box;
+  display: block;
+  width: 478px;
+  max-width: initial;
+  height: 67px;
+}

@@ -1,0 +1,120 @@
+.main-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 103px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tontineo-section {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-right: 120px;
+  padding-left: 120px;
+  margin-top: -70px;
+}
+.money-protection-container {
+  flex: 0 1 591px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-top: 233px;
+  padding-bottom: 159px;
+}
+.personal-contributions-heading {
+  flex: 0 0 auto;
+  font: var(--font-weight-600) var(--font-size-36) / 44px "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-black);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.personal-contributions-text {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-18) / 30px "IBM Plex Mono";
+  padding: 0;
+  margin: 12px 0 0;
+  color: var(--color-black);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.money-protection-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 28px;
+}
+.learn-more2 {
+  flex: 0 0 auto;
+  font: var(--font-weight-500) var(--font-size-20) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-forestgreen-931ea64);
+  white-space: pre-wrap;
+}
+.svg-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}
+.money-control-section {
+  flex: 1 0 350px;
+  border: none;
+  background: url("/assets/div_1_535_1_536_589f13.png")
+    no-repeat 50% / cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  max-width: initial;
+  height: 636px;
+  padding-top: 258px;
+  padding-bottom: 214px;
+}
+.image-container20 {
+  flex: 0 0 auto;
+  border: none;
+  box-sizing: border-box;
+  display: block;
+  width: 304px;
+  max-width: initial;
+  height: 164px;
+  box-shadow: -23px 23px 28px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+.tontineo-value-section {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-self: stretch;
+  justify-content: flex-start;
+  margin-top: 9px;
+}
+.app-value-section2 {
+  flex: 1 0 auto;
+  background: var(--color-forestgreen-931ea64);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.container-wrapper {
+  flex: 0 0 auto;
+}
+.savings-summary {
+  flex: 0 0 auto;
+  padding-top: 0;
+}

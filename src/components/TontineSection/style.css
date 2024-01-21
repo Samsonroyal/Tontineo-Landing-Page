@@ -1,0 +1,31 @@
+.testimonial-container3 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.testimonial-heading {
+  flex: 0 0 auto;
+  font: var(--font-weight-600) var(--font-size-40) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-black);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.active-tontine-groups-in-west-africa1 {
+  font: var(--font-weight-600) var(--font-size-40) "IBM Plex Mono";
+  color: var(--color-forestgreen-931ea64);
+  text-align: center;
+}
+.testimonials-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 92px;
+}

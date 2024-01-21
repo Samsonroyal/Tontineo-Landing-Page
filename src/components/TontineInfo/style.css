@@ -1,0 +1,112 @@
+.tontine-group-info {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  justify-content: flex-start;
+  padding-right: 120px;
+  padding-left: 120px;
+}
+.trusted-by-tontine-groups1 {
+  flex: 0 0 auto;
+  font: var(--font-weight-600) var(--font-size-40) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 976px;
+  color: var(--color-black);
+  text-align: center;
+  white-space: pre-wrap;
+}
+.trusted-by-tontine-groups {
+  font: var(--font-weight-600) var(--font-size-40) "IBM Plex Mono";
+  text-align: center;
+}
+.active-tontine-groups-in-west-africa1 {
+  font: var(--font-weight-600) var(--font-size-40) "IBM Plex Mono";
+  color: var(--color-forestgreen-931ea64);
+  text-align: center;
+}
+.active-tontine-groups-in-west-africa {
+  font: var(--font-weight-600) var(--font-size-40) "IBM Plex Mono";
+  color: var(--color-seagreen-d7e94beb);
+  text-align: center;
+}
+.tontine-group-info1 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  align-self: stretch;
+  justify-content: flex-start;
+  margin-top: 110px;
+}
+.personal-contributions2 {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  width: 49.5%;
+  padding-top: 0;
+}
+.container-with-images {
+  position: relative;
+  box-sizing: border-box;
+  width: 453px;
+  height: 579px;
+}
+.image-container5 {
+  border: none;
+  position: absolute;
+  box-sizing: border-box;
+  display: block;
+  width: 342px;
+  max-width: initial;
+  height: 579px;
+  object-fit: cover;
+}
+.image-container8 {
+  border: none;
+  position: absolute;
+  top: 105px;
+  left: 279px;
+  box-sizing: border-box;
+  display: block;
+  width: 174px;
+  max-width: initial;
+  height: 110px;
+  box-shadow: 11px 15px 29px rgba(0, 0, 0, 0.18);
+  object-fit: cover;
+}
+.personal-contributions-section {
+  flex: 0 0 auto;
+  padding: 183px 15px 98px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 50.5%;
+}
+.personal-contributions {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 38px;
+}
+.learn-more {
+  flex: 0 0 auto;
+  font: var(--font-weight-500) var(--font-size-20) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-seagreen-d7e94beb);
+  white-space: pre-wrap;
+}
+.svg-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}

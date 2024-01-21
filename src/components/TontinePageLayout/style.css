@@ -1,0 +1,199 @@
+.main-container1 {
+  background: var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 83px;
+  align-items: stretch;
+  justify-content: flex-start;
+  max-width: 1440px;
+}
+.header-container1 {
+  flex: 0 0 auto;
+  background: var(--color-white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 80px;
+  padding-right: 116px;
+  padding-left: 116px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+.header-container {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 60.59%;
+  padding-top: 26px;
+  padding-bottom: 22px;
+}
+.svg-container {
+  flex: 0 0 auto;
+  display: flex;
+  width: 32px;
+  height: 32px;
+}
+.tontineo-title {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-24) "IBM Plex Mono";
+  padding: 0;
+  margin: 0 0 0 3px;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.navbar {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 39.41%;
+  height: 80px;
+  margin-right: -44px;
+  margin-left: -44px;
+}
+.primary-navigation {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-14) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-black);
+  white-space: pre-wrap;
+}
+.green-button1 {
+  flex: 0 0 auto;
+  border: 1px solid var(--color-forestgreen-931ea64);
+  border-radius: var(--border-radius-6);
+  font: var(--font-weight-500) var(--font-size-14) "IBM Plex Mono";
+  background: var(--color-991c5d52);
+  box-sizing: border-box;
+  display: block;
+  width: 83px;
+  min-width: 83px;
+  height: 38px;
+  color: var(--color-forestgreen-931ea64);
+  cursor: pointer;
+}
+.green-button {
+  flex: 0 0 auto;
+  border: none;
+  border-radius: var(--border-radius-6);
+  font: var(--font-weight-500) var(--font-size-14) "IBM Plex Mono";
+  background: var(--color-forestgreen-931ea64);
+  box-sizing: border-box;
+  display: block;
+  width: 100px;
+  min-width: 100px;
+  height: 38px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.green-header-section {
+  flex: 0 0 auto;
+  background: var(--color-forestgreen-931ea64);
+  padding: 80px 116px 75px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: -3px;
+}
+.company-logo-section {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 22.28%;
+  padding-bottom: 134px;
+}
+.svg-container9 {
+  flex: 0 0 auto;
+  display: flex;
+  width: 32px;
+  height: 32px;
+  color: var(--color-forestgreen-931ea64);
+}
+.tontineo-title1 {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-24) "IBM Plex Mono";
+  padding: 0;
+  margin: 0 0 0 4.25px;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.company-section {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 181px;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 77.72%;
+  padding-left: 15px;
+  margin-right: -19px;
+}
+.app-value-section {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.company-title {
+  flex: 0 0 auto;
+  font: var(--font-weight-500) var(--font-size-16) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.section-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding-bottom: 72px;
+}
+.section-menu {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 18px;
+}
+.section-title-text {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-14) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.text-container {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-14) "IBM Plex Mono";
+  padding: 0;
+  margin: 18px 0 0;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.help-text {
+  flex: 0 0 auto;
+  font: var(--font-weight-500) var(--font-size-16) "IBM Plex Mono";
+  padding: 0 20px 0 0;
+  margin: 0;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}

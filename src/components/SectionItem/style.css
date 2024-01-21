@@ -1,0 +1,11 @@
+.section-title-text {
+  flex: 0 0 auto;
+  font: var(--font-weight-400) var(--font-size-14) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.section-title {
+  padding-right: 17px;
+}

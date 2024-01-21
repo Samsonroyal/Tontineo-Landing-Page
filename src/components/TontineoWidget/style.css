@@ -1,0 +1,45 @@
+.app-review-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 58px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid grey;
+}
+.svg-container7 {
+  flex: 0 0 auto;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  color: var(--color-forestgreen-931ea64);
+}
+.testimonial-container {
+  flex: 0 1 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 8px;
+}
+.testimonial-text {
+  flex: 0 1 auto;
+  font: var(--font-weight-400) var(--font-size-18) / 30px "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-black);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.testimonial-container2 {
+  flex: 0 0 auto;
+  padding-top: 68px;
+  margin-left: -177px;
+}
+.svg-container5 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  color: var(--color-forestgreen-931ea64);
+}

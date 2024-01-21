@@ -1,0 +1,106 @@
+.container-wrapper {
+  flex: 0 0 auto;
+}
+.container-with-images-and-button {
+  position: relative;
+  box-sizing: border-box;
+  width: 1283px;
+  height: 540px;
+}
+.image-container15 {
+  position: absolute;
+  top: 115px;
+  box-sizing: border-box;
+  display: block;
+  width: 888px;
+  max-width: initial;
+  height: 198px;
+}
+.button-container {
+  border: none;
+  border-radius: var(--border-radius-11_5);
+  font: var(--font-weight-500) var(--font-size-35) "IBM Plex Mono";
+  background: var(--color-forestgreen-931ea64);
+  position: absolute;
+  top: 362px;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  width: 462px;
+  min-width: 462px;
+  height: 104px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+.svg-container1 {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  color: var(--color-white);
+}
+.image-container1 {
+  background: url("/assets/div_1_126_1_483_3597de.svg")
+    no-repeat 50% / cover;
+  padding: 171px 253px 76px;
+  position: absolute;
+  top: 44px;
+  left: 487px;
+  box-sizing: border-box;
+  min-width: 796px;
+}
+.image-container14 {
+  border: none;
+  border-radius: var(--border-radius-20);
+  box-sizing: border-box;
+  display: block;
+  width: 217px;
+  max-width: initial;
+  height: 194px;
+  box-shadow: 20px 40px 80px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+.image-container9 {
+  position: absolute;
+  top: 20px;
+  left: 736px;
+  box-sizing: border-box;
+  display: block;
+  width: 80px;
+  max-width: initial;
+  height: 81px;
+}
+.image-container2 {
+  position: absolute;
+  top: 461px;
+  left: 808px;
+  box-sizing: border-box;
+  display: block;
+  width: 60px;
+  max-width: initial;
+  height: 61px;
+}
+.image-container7 {
+  border: none;
+  background: url("/assets/img_1_716_dde8dc.png")
+    no-repeat 50% / cover;
+  position: absolute;
+  left: 885px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 314px;
+  padding-top: 229px;
+  padding-bottom: 261px;
+}
+.image-container13 {
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  display: block;
+  width: 50px;
+  max-width: initial;
+  height: 51px;
+}

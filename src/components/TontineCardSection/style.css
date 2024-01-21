@@ -1,0 +1,54 @@
+.app-value-section1 {
+  background: url("/assets/div_1mc7eio_96d458.svg")
+    no-repeat 50% / cover;
+  padding: 25px 48px 62px 150px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  max-width: 720px;
+}
+.app-value-section {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.app-value {
+  flex: 0 0 auto;
+  font: var(--font-weight-600) var(--font-size-40) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 428px;
+  color: var(--color-white);
+  text-align: left;
+  white-space: pre-wrap;
+}
+.app-benefit {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-top: 41px;
+}
+.learn-more1 {
+  flex: 0 0 auto;
+  font: var(--font-weight-500) var(--font-size-24) "IBM Plex Mono";
+  padding: 0;
+  margin: 0;
+  color: var(--color-white);
+  white-space: pre-wrap;
+}
+.svg-container2 {
+  flex: 0 0 auto;
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}
