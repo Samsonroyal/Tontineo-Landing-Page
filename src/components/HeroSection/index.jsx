@@ -2,7 +2,9 @@ import React from 'react';
 
 const HeroSection = () => {
     return (
-        <div className="container-wrapper">
+        <div class="main-container">
+            <div class="container-wrapper">
+            <div className="container-wrapper">
             <div className="container-with-images-and-button">
                 <img src="/assets/img_1_118_3310b9.svg" className="image-container15" />
                 <button className="base-Button-root button-container" type="button">
@@ -35,6 +37,10 @@ const HeroSection = () => {
                 </div>
             </div>
         </div>
+
+        </div>
+    </div>
+        
     );
 };
 
