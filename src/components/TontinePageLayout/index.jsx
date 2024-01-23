@@ -6,6 +6,7 @@ import SvgIcon1 from "./icons/SvgIcon1";
 import "./style.css";
 import messages from "./messages.json";
 
+
 function TontinePageLayout({ sectionItemsList, tontineCardOptions }) {
   return (
     <div className={`main-container1`}>
