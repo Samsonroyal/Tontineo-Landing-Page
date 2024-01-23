@@ -41,7 +41,7 @@
   color: var(--color-white);
 }
 .image-container1 {
-  background: url("/assets/div_1_126_1_483_3597de.svg")
+  background: url("public/assets/Earth.svg")
     no-repeat 50% / cover;
   padding: 171px 253px 76px;
   position: absolute;
@@ -83,7 +83,7 @@
 }
 .image-container7 {
   border: none;
-  background: url("/assets/img_1_716_dde8dc.png")
+  background: url("public/assets/img_1_716_dde8dc.png")
     no-repeat 50% / cover;
   position: absolute;
   left: 885px;
