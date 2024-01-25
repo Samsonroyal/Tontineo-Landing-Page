@@ -6,7 +6,7 @@ import TontineCardSection from "../TontineCardSection";
 import ImageSection from "../ImageSection";
 import TontineSection from "../TontineSection";
 import TontineDigitalWay from "../TontineDigitalWay";
-import NewsletterSubscription from "../NewsletterSubscription";
+import Newsletter from "../NewsletterSubscription";
 import SvgIcon1 from "./icons/SvgIcon1";
 import "./style.css";
 import messages from "./messages.json";
@@ -45,7 +45,7 @@ function TontinePage({ tontineCardOptions }) {
       </div>
       <TontineSection />
       <TontineDigitalWay />
-      <NewsletterSubscription />
+      <Newsletter />
     </div>
   );
 }
