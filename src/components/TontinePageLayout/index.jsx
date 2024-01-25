@@ -1,11 +1,12 @@
 import { useCallback, useState, forwardRef } from "react";
+import { Analytics } from '@vercel/analytics/react';
 import { Button } from "@mui/base";
 import TontinePage from "../TontinePage";
 import SectionItemListSelector from "../SectionItemListSelector";
 import SvgIcon1 from "./icons/SvgIcon1";
 import "./style.css";
 import messages from "./messages.json";
-
+ 
 
 function TontinePageLayout({ sectionItemsList, tontineCardOptions }) {
   return (
@@ -40,6 +41,7 @@ function TontinePageLayout({ sectionItemsList, tontineCardOptions }) {
           </div>
           <div className={`section-container`}>
             <p className={`company-title`}>{messages["features"]}</p>
+          
             <div className={`section-menu`}>
               <p className={`section-title-text`}>{messages["witin_africa"]}</p>
               <p className={`text-container`}>{messages["international"]}</p>
@@ -59,6 +61,7 @@ function TontinePageLayout({ sectionItemsList, tontineCardOptions }) {
               <p className={`text-container`}>{messages["privacy_policy"]}</p>
             </div>
           </div>
+          <Analytics />
         </div>
       </div>
     </div>
