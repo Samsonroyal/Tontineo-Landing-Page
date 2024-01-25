@@ -196,3 +196,368 @@
   color: var(--color-white);
   white-space: pre-wrap;
 }
+
+
+@media screen and (max-width: 1023px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 560px) {
+  body {
+    font-size: 13px;
+  }
+}
+p {
+  line-height: 1.25em;
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.background.background-0 {
+  background: linear-gradient(to left top, #b1acff, rgba(252,207,146,0) 70%);
+}
+.background.background-1 {
+  background: linear-gradient(to right top, #b1acff, rgba(250,189,160,0) 70%);
+}
+.button {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 16px 22px;
+  overflow: hidden;
+  box-shadow: #b1acff;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1023px) {
+  .button {
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .button {
+    padding: 13px 17px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .button {
+    padding: 11px 14px;
+    border-radius: 10px;
+  }
+}
+.button:hover .label-hover {
+  transform: translateX(0%);
+}
+.button:hover .label-hover .inner {
+  transform: translateX(0%);
+}
+.button .border {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 4px double #fff;
+  box-shadow: #000;
+}
+@media screen and (max-width: 700px) {
+  .button .border {
+    border-width: 2px;
+    border-radius: 10px;
+  }
+}
+.button .label-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  transform: translateX(-100%);
+  transition: transform 0.45s cubic-bezier(0.4, 0, 0.25, 1);
+  will-change: transform;
+}
+.button .label-hover .inner {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #9089fc;
+  transform: translateX(100%);
+  transition: transform 0.45s cubic-bezier(0.4, 0, 0.25, 1);
+  will-change: transform;
+  border-radius: 10px;
+}
+.content {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 80px;
+  font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width: 1023px) {
+  .content {
+    width: auto;
+    margin-left: 50px;
+    margin-right: 180px;
+    padding-top: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content {
+    margin-left: 30px;
+    margin-right: 160px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .content {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+  }
+}
+.content .section {
+  margin-bottom: 80px;
+/**
+        * Introduction
+        */
+/**
+        * Contact
+        */
+/**
+        * Activities
+        */
+/**
+        * Projects
+        */
+}
+@media screen and (max-width: 1023px) {
+  .content .section {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content .section {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .content .section {
+    margin-bottom: 30px;
+  }
+}
+.content .section .title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 0.75em;
+}
+@media screen and (max-width: 1023px) {
+  .content .section .title {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content .section .title {
+    font-size: 30px;
+  }
+}
+.content .section.introduction .title {
+  margin-bottom: 0.05em;
+  font-family: 'Oswald', sans-serif;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+@media screen and (max-width: 1023px) {
+  .content .section.introduction .title {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content .section.introduction .title {
+    font-size: 60px;
+    margin-bottom: 0.1em;
+  }
+}
+@media screen and (max-width: 560px) {
+  .content .section.introduction .title {
+    padding-right: 120px;
+    font-size: 40px;
+  }
+}
+.content .section.introduction .sub-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1023px) {
+  .content .section.introduction .sub-title {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content .section.introduction .sub-title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .content .section.introduction .sub-title {
+    font-size: 18px;
+  }
+}
+.content .section.introduction .description {
+  width: 70%;
+}
+@media screen and (max-width: 700px) {
+  .content .section.introduction .description {
+    width: auto;
+  }
+}
+.content .section.contact .list .button {
+  margin-right: 8px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 700px) {
+  .content .section.contact .list .button {
+    margin-right: 6px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .content .section.contact .list .button {
+    margin-right: 5px;
+    margin-bottom: 7px;
+  }
+}
+.content .section.activities .list {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.content .section.activities .list .item {
+  margin-bottom: 30px;
+}
+.content .section.activities .list .item .name {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+@media screen and (max-width: 1023px) {
+  .content .section.activities .list .item .name {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content .section.activities .list .item .name {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .content .section.activities .list .item .name {
+    font-size: 15px;
+  }
+}
+.content .section.activities .list .item .name .fade {
+  opacity: 0.5;
+}
+.content .section.activities .list .item .period .date {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  font-weight: 700;
+  color: #9089fc;
+  background: #fff;
+}
+.content .section.projects .list {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.content .section.projects .list .item {
+  margin-bottom: 30px;
+}
+.content .section.projects .list .item .name {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1023px) {
+  .content .section.projects .list .item .name {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .content .section.projects .list .item .name {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .content .section.projects .list .item .name {
+    font-size: 15px;
+  }
+}
+.content .section.projects .list .item .name .fade {
+  opacity: 0.5;
+}
+.content .section.projects .list .item .button {
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+@media screen and (max-width: 700px) {
+  .content .section.projects .list .item .button {
+    margin-right: 6px;
+    margin-bottom: 8px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .content .section.projects .list .item .button {
+    margin-right: 5px;
+    margin-bottom: 7px;
+  }
+}
+.version-3d {
+  position: fixed;
+  top: 90px;
+  right: 90px;
+}
+@media screen and (max-width: 1023px) {
+  .version-3d {
+    top: 60px;
+    right: 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .version-3d {
+    top: 38px;
+    right: 30px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .version-3d {
+    position: absolute;
+    top: 24px;
+    right: 20px;
+  }
+}

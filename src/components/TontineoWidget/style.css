@@ -24,10 +24,12 @@
   margin-left: 8px;
 }
 .testimonial-text {
-  flex: 0 1 auto;
   font: var(--font-weight-400) var(--font-size-18) / 30px "IBM Plex Mono";
   padding: 0;
   margin: 0;
+  position: absolute;
+  box-sizing: border-box;
+  max-width: 387px;
   color: var(--color-black);
   text-align: left;
   white-space: pre-wrap;
