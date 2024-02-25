@@ -1,4 +1,5 @@
 import { useCallback, useState, forwardRef } from "react";
+import { Link } from "react-router";
 import { Button } from "@mui/base";
 import SvgIcon1 from "./icons/SvgIcon1";
 import "./style.css";
@@ -15,7 +16,9 @@ function AppFeatures() {
         {/* Button Component starts here. We've generated code using MUI Base. See other options in "Component library" dropdown in Settings */}
         <Button className="button-container">
           <SvgIcon1 className="svg-container1" />
-          {messages["download_app"]}
+          <Link to="https://github.com/Samsonroyal/Tontineo/releases/download/beta/app-release.apk" target="_blank" download>
+            {messages["download_app"]}
+          </Link>
         </Button>
 
         <div className={`image-container1`}>
